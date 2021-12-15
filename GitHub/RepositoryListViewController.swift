@@ -10,7 +10,7 @@ import RxSwift
 import RxCocoa
 
 class RepositoryListViewController: UITableViewController {
-    private let organization = "ReactiveX"
+    private let organization = "Apple"
     private let repositories = BehaviorSubject<[Repository]>(value: [])
     private let disposeBag = DisposeBag()
     
